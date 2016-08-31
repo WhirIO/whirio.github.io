@@ -9,8 +9,20 @@ $> whir u=whir [options]
 ```
 
 ### Options:
-- `u || username`: Your username for a particular channel.</li>
-- `c || channel`: The channel you want to join.</li>
-- `t || timeout`: Automatically disconnect you after [timeout] seconds.</li>
+- `u || username`: Your channel username.</li>
+- `c || channel`: The channel to join.</li>
+- `m || max`: Max. users per channel (Only for new channels).</li>
+- `t || timeout`: Disconnect after [timeout] seconds.</li>
+- `f || file`: Your settings file.</li>
+
+You may also store your settings in a file and use them instead of the arguments.
+
+```
+{
+  "username": "whir",
+  "channel": "developers",
+  "max": 25
+}
+```
 
 👍🏼
