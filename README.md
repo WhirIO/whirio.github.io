@@ -15,7 +15,7 @@ $> whir u=whir [options]
 - `t || timeout`: Disconnect after [timeout] seconds.
 - `f || file`: Your settings file.
 
-You may also store your settings in a file and use them instead of the arguments.
+If you want store your settings in a file instead of passing arguments.
 
 ```
 {
