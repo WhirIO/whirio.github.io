@@ -43,10 +43,18 @@
         <div class="col-md-6 col-md-offset-3">
             <h4>Options:</h4>
             <ul>
-                <li><code>u || username</code>: Your username for a particular channel.</li>
-                <li><code>c || channel</code>: The channel you want to join.</li>
-                <li><code>t || timeout</code>: Automatically disconnect you after [timeout] seconds.</li>
+                <li><code>u || username</code>: Your channel username.</li>
+                <li><code>c || channel</code>: The channel to join.</li>
+                <li><code>m || max</code>: Max. users per channel (Only for new channels).</li>
+                <li><code>t || timeout</code>: Disconnect after [timeout] seconds.</li>
+                <li><code>f || file<code>: Your settings file.</li>
             </ul>
+            <p>You may also store your settings in a file and use them instead of the arguments.</p>
+            <pre>{
+  "username": "whir",
+  "channel": "developers",
+  "max": 25
+}</pre>
         </div>
     </div>
     <div class="row voila">
