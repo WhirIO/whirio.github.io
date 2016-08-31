@@ -9,11 +9,11 @@ $> whir u=whir [options]
 ```
 
 ### Options:
-- `u || username`: Your channel username.</li>
-- `c || channel`: The channel to join.</li>
-- `m || max`: Max. users per channel (Only for new channels).</li>
-- `t || timeout`: Disconnect after [timeout] seconds.</li>
-- `f || file`: Your settings file.</li>
+- `u || username`: Your channel username.
+- `c || channel`: The channel to join.
+- `m || max`: Max. users per channel (Only for new channels).
+- `t || timeout`: Disconnect after [timeout] seconds.
+- `f || file`: Your settings file.
 
 You may also store your settings in a file and use them instead of the arguments.
 
