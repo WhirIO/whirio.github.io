@@ -19,3 +19,7 @@ body {
     margin-top: 20px;
     text-align: center;
 }
+
+    .footer .fa {
+        margin: 0 1px;
+    }
