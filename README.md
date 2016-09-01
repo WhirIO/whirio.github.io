@@ -26,5 +26,8 @@ If you want store your settings in a file instead of passing arguments.
 }
 ```
 
+### License
+
+[MIT](https://github.com/WhirIO/whirio.github.io/blob/master/LICENSE)
 
 ### Enjoy!
