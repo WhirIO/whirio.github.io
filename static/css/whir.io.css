@@ -1,6 +1,10 @@
+body {
+    font-size: 15px;
+}
+
 .container {
     margin-top: 30px;
-    padding-bottom: 35px;
+    padding-bottom: 50px;
 }
 
 .logo {
@@ -9,8 +13,4 @@
     height: auto;
     display: block;
     margin: 0 auto;
-}
-
-.voila {
-    padding: 10px 0;
 }
