@@ -8,6 +8,7 @@ $> npm install -g whir
 $> whir u=whir [options]
 ```
 
+
 ### Options:
 - `u || username`: Your channel username.
 - `c || channel`: The channel to join.
@@ -25,4 +26,5 @@ If you want store your settings in a file instead of passing arguments.
 }
 ```
 
-👍🏼
+
+### Enjoy!
