@@ -4,8 +4,8 @@
 
 ### Getting started:
 ```
-$> npm install -g whir
-$> whir u:whir [options]
+$> npm install -g whir.io
+$> whir.io u:stefan [options]
 ```
 
 
@@ -20,7 +20,7 @@ If you want store your settings in a file instead of passing arguments.
 
 ```
 {
-  "username": "whir",
+  "username": "stefan",
   "channel": "developers",
   "max": 25
 }
