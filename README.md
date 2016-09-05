@@ -5,7 +5,7 @@
 ### Getting started:
 ```
 $> npm install -g whir.io
-$> whir.io u:stefan [options]
+$> whir.io u=stefan [options]
 ```
 
 
