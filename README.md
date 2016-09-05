@@ -21,7 +21,7 @@ If you want store your settings in a file instead of passing arguments.
 ```
 {
   "username": "stefan",
-  "channel": "developers",
+  "channel": "development",
   "max": 25
 }
 ```
