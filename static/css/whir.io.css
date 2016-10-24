@@ -7,6 +7,10 @@ body {
     padding-bottom: 50px;
 }
 
+    .container .row {
+        margin-bottom: 12px;
+    }
+
 .logo {
     width: 502px;
     max-width: 100%;
