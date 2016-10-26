@@ -11,6 +11,18 @@ body {
         margin-bottom: 12px;
     }
 
+        .container .row p {
+            margin-top: 12px;
+        }
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
 .logo {
     width: 502px;
     max-width: 100%;

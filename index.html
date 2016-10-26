@@ -30,44 +30,29 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h4>Getting started:</h4>
-                <pre>$> npm install -g whir.io<br />$> whir.io --user=stefan [options]</pre>
+                <pre>$> npm install -g whir.io</pre>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h4>Options:</h4>
                 <ul>
-                    <li><code>--user</code>: Your username for a particular channel.</li>
-                    <li><code>--channel</code>: The channel to join. Default: <code>whir generated name</code></li>
-                    <li><code>--host</code>: The server running Whir. Default: <code>chat.whir.io</code></li>
-                    <li><code>--max</code>: Max. users per channel (Only for new channels). Default: <code>1000</code></li>
-                    <li><code>--timeout</code>: Disconnect after [timeout] seconds. Default: <code>0</code> (no timeout).</li>
-                    <li><code>--file</code>: Your settings file.</li>
+                    <li><code>--user || -u</code>: Your username for a particular channel. <code>Required</code></li>
+                    <li><code>--channel || -c</code>: The channel to join. Default: <code>whir generated name</code></li>
+                    <li><code>--host || -h</code>: The server running Whir. Default: <code>chat.whir.io</code></li>
                 </ul>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <h4>Additional flags (these do not require values):</h4>
-                <ul>
-                    <li><code>--mute</code>: Mute the conversation, no notification alerts on new messages.</li>
-                    <li><code>--trace</code>: On errors, print the error stack.</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <h4>Example use:</h4>
-                <code>$> whir.io --channel=box --user=stefan --mute</code>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <h4>Settings file:</h4>
-                <p>If you want store your settings in a file instead of passing arguments:</p>
-                <pre>{<br/>  "user": "stefan",<br/>  "channel": "box",<br/>  "max": 25<br/>}</pre>
-                <p>then</p>
-                <pre>$> whir.io --file=[path_to_file]</pre>
+                <h4>Example uses:</h4>
+                <pre>$> whir.io --user=stefan --channel=friends</pre>
+                <p>or</p>
+                <pre>$> whir.io -u=stefan -c=friends</pre>
+                <p>or</p>
+                <pre>$> whir.io -u=stefan -m
+// You will be connected to a randomly named channel.
+// The conversation is muted.</pre>
             </div>
         </div>
         <div class="row">
