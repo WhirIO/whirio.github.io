@@ -1,29 +1,68 @@
-body {
-    font-size: 15px;
+
+body, pre, code {
+    font-family: 'Muli', sans-serif;
+    font-size: 1.6rem;
+    color: #413057;
+}
+
+pre, code {
+    border: 1px solid #734f9b;
+    background-color: #f6e5ff;
+}
+
+code {
+    border: none;
+    background-color: #f6e5ff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tag {
+    border: none;
+    background-color: #f6e5ff;
+    font-size: 1.2rem !important;
+    padding: 3px 12px;
+    font-weight: bold;
+}
+
+ul {
+    line-height: 26px;
+    padding: 0;
+}
+
+h4 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 24px;
+    color: #8456ac;
 }
 
 .container {
-    margin-top: 30px;
-    padding-bottom: 50px;
+    margin-top: 10px;
+    padding-bottom: 25px;
 }
 
     .container .row {
-        margin-bottom: 12px;
+        margin-bottom: 6px;
     }
 
+li {
+    list-style: none;
+}
+
 .logo {
-    width: 502px;
+    width: 400px;
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 60px auto;
 }
 
-.footer {
-    margin-top: 20px;
+.header {
+    margin-top: 0px;
     text-align: center;
 }
 
-    .footer .fa {
-        margin: 0 1px;
+    .header .fa {
+        margin: 0 3px;
+        color: #8456ac;
     }
