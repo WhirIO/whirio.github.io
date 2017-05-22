@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" href="./static/img/favicon.png">
     <title>whir.io</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Muli|Oleo+Script" rel="stylesheet">
     <link href="./static/css/bootstrap.min.css" rel="stylesheet">
     <link href="./static/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="./static/css/whir.io.css" rel="stylesheet">
@@ -29,7 +30,6 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <h4>Getting started:</h4>
                 <pre>$> npm install -g whir.io</pre>
             </div>
         </div>
@@ -37,28 +37,17 @@
             <div class="col-md-6 col-md-offset-3">
                 <h4>Options:</h4>
                 <ul>
-                    <li><code>--user || -u</code>: Your username for a particular channel. <code>Required</code></li>
-                    <li><code>--channel || -c</code>: The channel to join. Default: <code>whir generated name</code></li>
-                    <li><code>--host || -h</code>: The server running Whir. Default: <code>chat.whir.io</code></li>
+                    <li><code>--user</code> || <code>-u</code> Your username (per channel) <code class="tag">Required</code></li>
+                    <li><code>--channel</code> || <code>-c</code> Channel you are joining (or creating)</li>
+                    <li><code>--host</code> || <code>-h</code> Whir's host <code class="tag">Default: chat.whir.io</code></li>
                 </ul>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <h4>Example uses:</h4>
+                <h4>Run:</h4>
                 <pre>$> whir.io --user=stefan --channel=friends</pre>
-                <p>or</p>
                 <pre>$> whir.io -u=stefan -c=friends</pre>
-                <p>or</p>
-                <pre>$> whir.io -u=stefan -m
-// You will be connected to a randomly named channel.
-// The conversation is muted.</pre>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <h4>License</h4>
-                <p><a href="https://github.com/WhirIO/Client/blob/master/LICENSE" alt="License">MIT</a></p>
             </div>
         </div>
         <div class="row">
@@ -69,8 +58,8 @@
         <footer class="footer">
             <p>
                 <a href="https://github.com/WhirIO"><i class="fa fa-github-alt fa-1x" aria-hidden="true"></i></a>
-                <a href="http://goo.gl/kBXsBE"><i class="fa fa-globe fa-1x" aria-hidden="true"></i></a>
                 <a href="https://github.com/aichholzer"><i class="fa fa-heart fa-1x" aria-hidden="true"></i></a>
+                <a href="http://goo.gl/kBXsBE"><i class="fa fa-globe fa-1x" aria-hidden="true"></i></a>
             </p>
         </footer>
     </div>
