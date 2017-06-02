@@ -5,6 +5,11 @@ body, pre, code {
     color: #413057;
 }
 
+strong {
+    font-family: 'Oleo Script', sans-serif;
+    font-size: 1.8rem;
+}
+
 pre, code {
     border: 1px solid #734f9b;
     background-color: #f6e5ff;
