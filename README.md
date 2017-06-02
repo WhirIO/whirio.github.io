@@ -1,6 +1,7 @@
 <p align="center">
 👏🏻 😎 🚀 😻
 </p>
+<p>&nbsp;</p>
 
 <p align="center">
   <a href="http://whir.io"><img src="https://raw.githubusercontent.com/WhirIO/Client/master/media/whir.png" alt="whir.io" width="420" /></a>
